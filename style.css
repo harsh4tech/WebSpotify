@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    background-color: black;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.sportify-logo {
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.search-bar-home-icon {
+    cursor: pointer;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.premium-support-download {
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    margin-left: auto;
+    font-size: 18px;
+    color: #b9b3b3;
+    font-weight: 700;
+}
+
+.install-signup-login {
+    cursor: pointer;
+    display: flex;
+    gap: 26px;
+    align-items: center;
+    margin-left: auto;
+    font-size: 16px;
+    color: #b9b3b3;
+    font-weight: 700;
+}
+
+
+
+.line {
+    font-size: 40px;
+    font-weight: 100;
+    color: white;
+}
+
+.btn1 {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    font-weight: bolder;
+    width: 100px;
+    height: 45px;
+}
+
+.searchcontainer {
+    display: flex;
+    align-items: center;
+    background-color: #1e1e1e;
+    border-radius: 30px;
+    padding: 5px 10px;
+    height: 53px;
+}
+
+.searchcontainer input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    font-size: 15px;
+    margin-left: 10px;
+    width: 26vw;
+}
+
+input::placeholder {
+    color: rgb(167, 160, 160);
+}
+
+.left .right {
+    display: flex;
+}
+
+.home {
+    display: flex;
+    margin: 5px 10px 0px 10px;
+}
+
+.left {
+    height: 36vw;
+    width: 30vw;
+    margin: 0 8px 0 0;
+    border-radius: 10px;
+    background-color: #121212;
+}
+
+.right {
+    height: 36vw;
+    width: 70vw;
+    border-radius: 10px;
+    background-color: #121212;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-weight: bolder;
+}
+
+.content {
+    box-shadow: #ffffff2a 0px 7px 10px 0px;
+}
+
+.playlistbox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    height: 30vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.playlistbox::-webkit-scrollbar {
+    width: 10px;
+}
+
+.playlistbox::-webkit-scrollbar-thumb {
+    background-color: #ffffff2a;
+    border-radius: 5px;
+}
+
+.box {
+    line-height: 35px;
+    padding: 20px;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #1f1f1f;
+}
+
+
+.btn2 {
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    border-radius: 30px;
+    padding: 8px;
+    width: auto;
+    height: 35px;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.lists {
+    list-style: none;
+    padding: 25px;
+    font-size: 11px;
+    color: rgba(233, 232, 232, 0.596);
+}
+
+.lists>li {
+    display: inline-block;
+    padding: 5px;
+    margin-left: 7px;
+}
+
+.button {
+    cursor: pointer;
+    margin-left: 30px;
+    width: 110px;
+    padding: 4px;
+    border-radius: 20px;
+    display: flex;
+    border: 1px solid rgba(247, 144, 144, 0.397);
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    gap: 5px;
+    font-weight: bolder;
+}
+
+.button:hover {
+    cursor: pointer;
+    width: 115px;
+    padding: 5px;
+    border: 1px solid white;
+    font-weight: 900;
+}
+
+.right {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.right::-webkit-scrollbar {
+    width: 10px;
+}
+
+.right::-webkit-scrollbar-thumb {
+    background-color: #ffffff2a;
+    border-radius: 5px;
+}
+
+.nav {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.musicBox1 {
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 800;
+    padding: 15px;
+    border-radius: 15px;
+    height: 160px;
+    width: 280px;
+    background-color: #dc148c;
+    overflow: hidden;
+}
+
+.musicBox1>img {
+    border-radius: 9px;
+    height: 125px;
+    width: 125px;
+    overflow: hidden;
+    object-fit: cover;
+    margin-top: -12px;
+    margin-left: 164px;
+    transform: rotate(27deg);
+    box-shadow: #2828285e -6px 9px 12px 0px;
+}
+
+.trending {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.trendingbox {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px;
+    height: auto;
+    width: 200px;
+    padding: 13px;
+}
+
+.trendingbox:hover {
+    transition: all 2s ease;
+    background-color: #57565660;
+}
+
+.trendingbox>img {
+    object-fit: contain;
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+.trendingbox>.text {
+    list-style: none;
+    font-size: 13px;
+}
+
+.text li:first-child {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.text li:last-child {
+    color: #b9b3b3;
+}
+
+.scroll {
+    margin-left: 20px;
+    display: flex;
+    gap: 2px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.musicBox1:hover {
+    box-shadow: #fdfdfd36 4px 3px 9px 0px;
+}
+
+#play {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    top: 160px;
+    left: 115px;
+    opacity: 0;
+}
+
+
+.trendingbox:hover #play {
+    opacity: 1;
+    transition: transform 0.5s ease;
+    transform: scale(1.4, 1.4);
+}
+
+
+.songbox {
+    box-shadow: #fff6f64f 0px 2px 9px 0px;
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 100px;
+    width: 26vw;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.seekbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seekline {
+    width: 70%;
+    height: 5px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.circle {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    left: -19vw;
+}
+
+.wrap {
+    padding-top: 2px;
+    padding-bottom: 7px;
+    margin-left: 20px;
+}
+
+.wrap .artist-name {
+    font-size: 10px;
+    color: #e7dddda8;
+}
+
+
+
+
+
+.song-buttons {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/*
+.playbar img{
+    height: 35px;
+    width: 35px;
+} */
+
+.play-pause {
+    height: 25px;
+}
+
+/* lets make some responsive url */
+
+@media screen and (width < 1150px) {
+    .left {
+        position: absolute;
+        left: -50%;
+    }
+
+    .right {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .searchcontainer {
+        display: none;
+    }
+}
+
+@media screen and (width < 780px) {
+    .premium-support-download {
+        display: none;
+    }
+
+}
+
+@media screen and (width < 520px) {
+    .install-signup-login {
+        padding-right: 10px;
+        gap: 15px;
+        font-size: 14px;
+    }
+    .search-bar-home-icon{
+        display: none;
+    }
+    .homeicon{
+        display: none;
+    }
+    .btn1{
+        width: 80px;
+        font-size: 13px;
+    }
+
+}
